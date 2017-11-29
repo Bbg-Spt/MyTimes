@@ -67,6 +67,7 @@ nav a{
   display: flex;
   background-image: url(../Images/drinks.png);
   height: 300px;
+  align-items: center;
 }
 
 .content .title span {
@@ -80,6 +81,7 @@ nav a{
   display: flex;
   background-image: url(../Images/trees.png);
   height: 300px;
+  align-items: center;
 }
 
 .content .fall span {
@@ -94,6 +96,7 @@ nav a{
   display: flex;
   background-image: url(../Images/camera.png);
   height: 300px;
+  align-items: center;
 }
 
 .content .camera span {
@@ -108,6 +111,7 @@ nav a{
   display: flex;
   background-image: url(../Images/cat.png);
   height: 300px;
+  align-items: center;
 }
 
 .content .cat span {
