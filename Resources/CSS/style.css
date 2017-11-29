@@ -130,6 +130,11 @@ nav a{
   margin-bottom: 32px;
 }
 
+.text-content h2 {
+  font-size: 30px;
+  font-family: Georgia;
+}
+
 .stories {
   display: flex;
   justify-content: space-between;
