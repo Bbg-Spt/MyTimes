@@ -87,6 +87,7 @@ nav span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .content .camera {
@@ -100,13 +101,13 @@ nav span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .content .cat {
   display: flex;
   background-image: url(../Images/cat.png);
   height: 300px;
-  justify-content: center;
 }
 
 .content .cat span {
@@ -114,14 +115,34 @@ nav span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
-.narrative, .news-bites {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+.column-large .text-content {
+  margin-bottom: 32px;
 }
 
-div {
-  border: 1px solid black;
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stories .story {
+  width: 300px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
 }
