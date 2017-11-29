@@ -23,7 +23,7 @@ header {
   margin-right: 12px;
 }
 
-.header nav {
+.header .hnav {
   margin-right: 20px;
 }
 
@@ -31,7 +31,7 @@ nav a{
   color: black;
 }
 
-.header nav span {
+.header .hnav span {
   display: inline-block;
   padding: 20px 10px;
 }
